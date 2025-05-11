@@ -31,4 +31,4 @@ This code is a simple sample for exporting Alembic files. It provides a basic im
 - 以下はAlembicファイル出力の例です：
 - Below is an example of Alembic file output:
 
-https://github.com/J-Siberia/Alembic_Example/blob/main/output_animation.gif
+./output_animation.gif
