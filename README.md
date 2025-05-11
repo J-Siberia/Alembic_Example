@@ -25,3 +25,10 @@ This code is a simple sample for exporting Alembic files. It provides a basic im
 
 - Alembicライブラリはインクルードのパス部分のみを改変しております。
 - I have only modified the include path portion of the Alembic library.
+
+## デモ / Demo
+
+- 以下はAlembicファイル出力の例です：
+- Below is an example of Alembic file output:
+
+https://github.com/J-Siberia/Alembic_Example/blob/main/output_animation.gif
