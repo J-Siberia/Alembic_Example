@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "alembic",
+    "imath",
+    "eigen3"
+  ]
+}

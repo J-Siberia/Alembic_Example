@@ -1,0 +1,42 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c97909f4e0a93b2c586c7bf093db02345e7ab76af3fb2b189af035cb998a7fa3
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a249fd6db0f68d1f689b4f12fa8a8079ca9bfb66c47d71592873606a59bdc2e8
+Status: install ok installed
+
+Package: imath
+Version: 3.1.12
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 693a4db309e60b3bc0145fb12c6830671821113b54cb84874da656ca511aef49
+Description: Imath is a C++ and Python library of 2D and 3D vector, matrix, and math operations for computer graphics.
+Status: install ok installed
+
+Package: alembic
+Version: 1.8.8
+Depends: imath, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4e87ac1f123cd8cdbf9c4bbeb46f0391a8825d09f36ffab6b01739fbf8b17cd5
+Description: Alembic is an open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.
+Status: install ok installed
+
+Package: eigen3
+Version: 3.4.0
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a82cf44a75040a7cbda707d37db2f727154eec2140c2ff40688a11586fc06a4a
+Description: C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+Status: install ok installed
+
