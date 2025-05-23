@@ -11,6 +11,9 @@ This code is a simple sample for exporting Alembic files. It provides a basic im
 - オブジェクトのトポロジーは不変として、フレーム毎に頂点座標と頂点カラーが変化することを仮定しています。
 - The object's topology is assumed to be invariant, with vertex coordinates and vertex colors changing per frame.
 
+- 頂点カラーはCs属性に格納しています。
+- Vertex colors are in "Cs" attributes.
+
 ## 開発環境 / Development Environment
 
 - このコードはVisual Studioで実行することを前提としています。
